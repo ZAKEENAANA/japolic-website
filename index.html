@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Japolic — Infrastructure, Without the Complexity</title>
+
+    <meta
+        name="description"
+        content="Explore Japolic's developer infrastructure concept for deploying, monitoring, and scaling modern applications."
+    >
+    <meta name="theme-color" content="#08090b">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="site-header" id="siteHeader">
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="#home" class="logo" aria-label="Japolic home">
+                JAPOLIC<span class="logo-dot">.</span>
+            </a>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#platform">Platform</a>
+                <a href="#solutions">Solutions</a>
+                <a href="#developers">Developers</a>
+                <a href="#company">Company</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="#contact" class="sign-in">Talk to us</a>
+                <a href="#contact" class="btn btn-primary nav-cta">
+                    Get Started <span aria-hidden="true">↗</span>
+                </a>
+            </div>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-controls="navLinks"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+                    <div class="eyebrow">
+                        <span class="status-dot"></span>
+                        DEVELOPER INFRASTRUCTURE
+                    </div>
+
+                    <h1>
+                        Infrastructure,
+                        <span>without the complexity.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Deploy, monitor, and scale modern applications
+                        without unnecessary infrastructure overhead.
+                        Give your team more time to build products
+                        and less time managing complexity.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#platform" class="btn btn-primary btn-large">
+                            Explore Platform <span aria-hidden="true">↗</span>
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline btn-large">
+                            Talk to an Engineer
+                        </a>
+                    </div>
+
+                    <div class="hero-note">
+                        <span aria-hidden="true">✳</span>
+                        Designed around developer workflows
+                    </div>
+                </div>
+
+
+                <!-- Conceptual infrastructure illustration -->
+                <div class="hero-visual" aria-label="Illustrative infrastructure dashboard">
+
+                    <div class="dashboard">
+                        <div class="dashboard-header">
+                            <div>
+                                <span class="mono-label">JAPOLIC / OVERVIEW</span>
+                                <h2>Infrastructure map</h2>
+                            </div>
+
+                            <div class="live-status">
+                                <span></span>
+                                CONCEPT
+                            </div>
+                        </div>
+
+                        <div class="network">
+                            <div class="network-line line-one"></div>
+                            <div class="network-line line-two"></div>
+                            <div class="network-line line-three"></div>
+
+                            <div class="node node-api">
+                                <span class="node-icon">↗</span>
+                                <div>
+                                    <small>ENTRY POINT</small>
+                                    <strong>API Gateway</strong>
+                                </div>
+                            </div>
+
+                            <div class="node node-core">
+                                <span class="node-icon">◆</span>
+                                <div>
+                                    <small>ORCHESTRATION</small>
+                                    <strong>Japolic Core</strong>
+                                </div>
+                            </div>
+
+                            <div class="node node-db">
+                                <span class="node-icon">◇</span>
+                                <div>
+                                    <small>DATA LAYER</small>
+                                    <strong>Database</strong>
+                                </div>
+                            </div>
+
+                            <div class="node node-service">
+                                <span class="node-icon">+</span>
+                                <div>
+                                    <small>WORKLOAD</small>
+                                    <strong>Application</strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dashboard-stats">
+                            <div class="stat">
+                                <span>DEPLOYMENT</span>
+                                <strong>Pipeline</strong>
+                                <small>Workflow view</small>
+                            </div>
+
+                            <div class="stat">
+                                <span>OBSERVABILITY</span>
+                                <strong>Metrics</strong>
+                                <small>Monitoring view</small>
+                            </div>
+
+                            <div class="stat">
+                                <span>SCALING</span>
+                                <strong class="healthy">Ready to grow</strong>
+                                <small>Concept preview</small>
+                            </div>
+                        </div>
+
+                        <div class="chart">
+                            <div class="chart-heading">
+                                <span>ACTIVITY OVERVIEW</span>
+                                <span>ILLUSTRATIVE DATA</span>
+                            </div>
+
+                            <div class="chart-bars" aria-hidden="true">
+                                <i style="--bar-height:35%"></i>
+                                <i style="--bar-height:52%"></i>
+                                <i style="--bar-height:42%"></i>
+                                <i style="--bar-height:70%"></i>
+                                <i style="--bar-height:55%"></i>
+                                <i style="--bar-height:78%"></i>
+                                <i style="--bar-height:62%"></i>
+                                <i style="--bar-height:88%"></i>
+                                <i style="--bar-height:73%"></i>
+                                <i style="--bar-height:94%"></i>
+                                <i style="--bar-height:81%"></i>
+                                <i style="--bar-height:67%"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="visual-caption">
+                        Product interface concept — not live platform data.
+                    </p>
+                </div>
+            </div>
+
+            <div class="hero-grid-lines" aria-hidden="true"></div>
+        </section>
+
+
+        <!-- PROBLEM / SOLUTIONS -->
+        <section class="problem-section section" id="solutions">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-index">01 / THE CHALLENGE</span>
+
+                    <h2>
+                        Infrastructure shouldn't
+                        <span>slow your team down.</span>
+                    </h2>
+
+                    <p>
+                        As applications grow, managing the systems behind
+                        them can become increasingly complicated. The goal
+                        is to make infrastructure easier to understand,
+                        operate, and scale.
+                    </p>
+                </div>
+
+                <div class="problem-grid">
+
+                    <article class="problem-card">
+                        <span class="card-number">01</span>
+                        <div class="feature-symbol" aria-hidden="true">⌘</div>
+                        <h3>Too many tools</h3>
+                        <p>
+                            Switching between disconnected systems makes
+                            everyday development workflows harder to manage.
+                        </p>
+                        <span class="card-foot">SIMPLIFY YOUR WORKFLOW</span>
+                    </article>
+
+                    <article class="problem-card">
+                        <span class="card-number">02</span>
+                        <div class="feature-symbol" aria-hidden="true">↗</div>
+                        <h3>Deployment friction</h3>
+                        <p>
+                            Repetitive setup and complicated release processes
+                            can slow the journey from code to production.
+                        </p>
+                        <span class="card-foot">MOVE FROM CODE TO PROD</span>
+                    </article>
+
+                    <article class="problem-card">
+                        <span class="card-number">03</span>
+                        <div class="feature-symbol" aria-hidden="true">◎</div>
+                        <h3>Scaling complexity</h3>
+                        <p>
+                            Growing workloads require clear visibility and
+                            infrastructure that can evolve with your product.
+                        </p>
+                        <span class="card-foot">PREPARE FOR GROWTH</span>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- HOW IT WORKS -->
+        <section class="workflow-section section" id="developers">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-index">02 / HOW IT WORKS</span>
+
+                    <h2>
+                        From code to production,
+                        <span>with less friction.</span>
+                    </h2>
+
+                    <p>
+                        A simple conceptual workflow that helps teams
+                        understand the path from application code to
+                        a monitored, scalable deployment.
+                    </p>
+                </div>
+
+                <div class="workflow-grid">
+
+                    <article class="workflow-card">
+                        <span class="workflow-number">01</span>
+                        <div class="workflow-icon" aria-hidden="true">⌘</div>
+                        <h3>Connect</h3>
+                        <p>
+                            Start with your application and development workflow.
+                        </p>
+                        <span class="workflow-tag">SOURCE</span>
+                    </article>
+
+                    <div class="workflow-arrow" aria-hidden="true">→</div>
+
+                    <article class="workflow-card">
+                        <span class="workflow-number">02</span>
+                        <div class="workflow-icon" aria-hidden="true">⇧</div>
+                        <h3>Deploy</h3>
+                        <p>
+                            Prepare your application for a consistent release process.
+                        </p>
+                        <span class="workflow-tag">DELIVERY</span>
+                    </article>
+
+                    <div class="workflow-arrow" aria-hidden="true">→</div>
+
+                    <article class="workflow-card">
+                        <span class="workflow-number">03</span>
+                        <div class="workflow-icon" aria-hidden="true">⌁</div>
+                        <h3>Monitor</h3>
+                        <p>
+                            Understand application activity through a clear
+                            observability experience.
+                        </p>
+                        <span class="workflow-tag">VISIBILITY</span>
+                    </article>
+
+                    <div class="workflow-arrow" aria-hidden="true">→</div>
+
+                    <article class="workflow-card">
+                        <span class="workflow-number">04</span>
+                        <div class="workflow-icon" aria-hidden="true">⤢</div>
+                        <h3>Scale</h3>
+                        <p>
+                            Plan for changing workloads as your product evolves.
+                        </p>
+                        <span class="workflow-tag">GROWTH</span>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PLATFORM -->
+        <section class="platform-section section" id="platform">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-index">03 / THE PLATFORM</span>
+
+                    <h2>
+                        A clearer view of your
+                        <span>infrastructure.</span>
+                    </h2>
+
+                    <p>
+                        Explore a proposed product experience built around
+                        deployment workflows, operational visibility, and
+                        developer-focused infrastructure management.
+                    </p>
+                </div>
+
+                <div class="platform-layout">
+
+                    <div class="platform-preview">
+                        <div class="preview-topbar">
+                            <div class="preview-brand">
+                                <span class="preview-brand-mark">J</span>
+                                <span>JAPOLIC <small>PLATFORM CONCEPT</small></span>
+                            </div>
+
+                            <span class="preview-status">
+                                <i></i> UI PREVIEW
+                            </span>
+                        </div>
+
+                        <div class="preview-body">
+                            <aside class="preview-sidebar" aria-label="Concept dashboard navigation">
+                                <span class="sidebar-label">WORKSPACE</span>
+                                <div class="sidebar-item active">▦ &nbsp; Overview</div>
+                                <div class="sidebar-item">◇ &nbsp; Applications</div>
+                                <div class="sidebar-item">⌁ &nbsp; Monitoring</div>
+                                <div class="sidebar-item">⚙ &nbsp; Settings</div>
+
+                                <div class="sidebar-bottom">
+                                    <span class="sidebar-label">ENVIRONMENT</span>
+                                    <span class="environment-tag">Development</span>
+                                </div>
+                            </aside>
+
+                            <div class="preview-main">
+                                <div class="preview-welcome">
+                                    <div>
+                                        <span class="mono-label">WORKSPACE / OVERVIEW</span>
+                                        <h3>Application overview</h3>
+                                    </div>
+                                    <span class="preview-date">DASHBOARD CONCEPT</span>
+                                </div>
+
+                                <div class="preview-metrics">
+                                    <div class="metric-box">
+                                        <span>APPLICATIONS</span>
+                                        <strong>—</strong>
+                                        <small>Connect your projects</small>
+                                    </div>
+
+                                    <div class="metric-box">
+                                        <span>DEPLOYMENTS</span>
+                                        <strong>—</strong>
+                                        <small>Deployment history</small>
+                                    </div>
+
+                                    <div class="metric-box">
+                                        <span>HEALTH</span>
+                                        <strong class="metric-accent">Overview</strong>
+                                        <small>Monitoring concept</small>
+                                    </div>
+                                </div>
+
+                                <div class="preview-chart">
+                                    <div class="preview-chart-heading">
+                                        <strong>System activity</strong>
+                                        <span>ILLUSTRATIVE VISUAL</span>
+                                    </div>
+
+                                    <div class="chart-visual" aria-hidden="true">
+                                        <div class="chart-y-labels">
+                                            <span>HIGH</span>
+                                            <span>MED</span>
+                                            <span>LOW</span>
+                                        </div>
+
+                                        <div class="chart-plot">
+                                            <div class="chart-grid-line"></div>
+                                            <div class="chart-grid-line"></div>
+                                            <div class="chart-grid-line"></div>
+
+                                            <svg
+                                                viewBox="0 0 500 120"
+                                                preserveAspectRatio="none"
+                                                role="img"
+                                                aria-label="Decorative illustrative activity chart"
+                                            >
+                                                <path
+                                                    d="M0 92 C30 82 42 88 68 68 S108 82 135 58 S178 70 205 45 S248 62 274 37 S315 52 340 30 S382 48 410 22 S463 35 500 10"
+                                                    fill="none"
+                                                    stroke="#d8ff45"
+                                                    stroke-width="2.5"
+                                                    vector-effect="non-scaling-stroke"
+                                                />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="preview-bottom-note">
+                                    <span>◇</span>
+                                    Connect an application to begin exploring your workspace.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="platform-features">
+
+                        <article class="platform-feature">
+                            <span class="feature-index">01</span>
+                            <div>
+                                <h3>Deployment workflows</h3>
+                                <p>
+                                    Present the path from code to release
+                                    in a clear, developer-friendly interface.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="platform-feature">
+                            <span class="feature-index">02</span>
+                            <div>
+                                <h3>Operational visibility</h3>
+                                <p>
+                                    Bring important application and
+                                    infrastructure information into view.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="platform-feature">
+                            <span class="feature-index">03</span>
+                            <div>
+                                <h3>Designed for growth</h3>
+                                <p>
+                                    Create a product experience that can
+                                    communicate the needs of growing teams.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="platform-feature">
+                            <span class="feature-index">04</span>
+                            <div>
+                                <h3>Developer-first experience</h3>
+                                <p>
+                                    Make complex technical workflows easier
+                                    to explore and understand.
+                                </p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- USE CASES -->
+        <section class="use-cases-section section" id="company">
+            <div class="container use-cases-layout">
+
+                <div>
+                    <span class="section-index">BUILT FOR WHAT'S NEXT</span>
+                    <h2>
+                        Made for teams
+                        <span>building the future.</span>
+                    </h2>
+                </div>
+
+                <div class="use-case-list">
+                    <div><span>01</span> SaaS Products <span>↗</span></div>
+                    <div><span>02</span> E-commerce Platforms <span>↗</span></div>
+                    <div><span>03</span> APIs & Services <span>↗</span></div>
+                    <div><span>04</span> AI Applications <span>↗</span></div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- FINAL CTA -->
+        <section class="cta-section section" id="contact">
+            <div class="container">
+                <div class="cta-panel">
+
+                    <div class="cta-decoration" aria-hidden="true">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <span class="section-index">READY WHEN YOU ARE</span>
+
+                    <h2>
+                        You build.
+                        <span>Think less about infrastructure.</span>
+                    </h2>
+
+                    <p>
+                        Spend more time building products your users need
+                        and less time navigating infrastructure complexity.
+                    </p>
+
+                    <div class="cta-actions">
+                        <a
+                            class="btn btn-primary btn-large"
+                            href="mailto:hello@japolic.example?subject=Japolic%20Platform%20Enquiry"
+                        >
+                            Start a Conversation <span aria-hidden="true">↗</span>
+                        </a>
+
+                        <a href="#platform" class="btn btn-outline btn-large">
+                            Explore the Concept
+                        </a>
+                    </div>
+
+                    <p class="cta-note">
+                        Concept website for design assessment. Replace
+                        example contact details with verified client details.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-main">
+
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        JAPOLIC<span class="logo-dot">.</span>
+                    </a>
+
+                    <p>
+                        Developer infrastructure,
+                        thoughtfully simplified.
+                    </p>
+
+                    <span class="footer-status">
+                        <i></i> BUILDING A CLEARER PATH TO PRODUCTION
+                    </span>
+                </div>
+
+                <div class="footer-column">
+                    <h2>Platform</h2>
+                    <a href="#platform">Overview</a>
+                    <a href="#platform">Capabilities</a>
+                    <a href="#solutions">Solutions</a>
+                </div>
+
+                <div class="footer-column">
+                    <h2>Developers</h2>
+                    <a href="#developers">Workflow</a>
+                    <a href="#platform">Monitoring concept</a>
+                    <a href="#contact">Talk to us</a>
+                </div>
+
+                <div class="footer-column">
+                    <h2>Company</h2>
+                    <a href="#company">Use cases</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <span>© 2026 Japolic. Assessment concept.</span>
+
+                <div class="footer-legal">
+                    <a href="#home">Back to top ↑</a>
+                    <span>Designed for developers.</span>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
